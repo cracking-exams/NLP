@@ -1,3 +1,5 @@
+# identify semantic relation between words(using word net)
+
 import nltk
 from nltk.corpus import wordnet
 

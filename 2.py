@@ -1,0 +1,11 @@
+#Study and understand the concepts of Morphology by use of add , delete tables
+
+# Add Table
+words = ['walk', 'talk']
+add_suffix = [w + 'ed' for w in words]
+print("Add Table:", add_suffix)  # walked, talked
+
+# Delete Table
+inflected = ['playing', 'talking']
+base = [w[:-3] for w in inflected]
+print("Delete Table:", base)  # play, talk
